@@ -1,0 +1,49 @@
+.App {
+  width: 90%;
+  margin: auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.todos-block,
+.add-todo-form {
+  border: 1px solid lightgray;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.todos {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.todo {
+  flex-basis: calc(100% / 5 - 10px);
+  max-width: calc(100% / 5 - 10px);
+  box-sizing: border-box;
+  margin: 5px;
+  border: 1px solid lightgray;
+  padding: 10px;
+  position: relative;
+  word-wrap: break-word;
+}
+
+.todo-id {
+  color: #007bff;
+}
+
+.del-todo-btn {
+  margin-left: 10px;
+}
+
+.nav-item {
+  margin-left: 10px;
+}
+
+.post-comments {
+  border: 1px dotted black;
+}
+
+.todo-complete {
+  text-decoration: line-through;
+}
